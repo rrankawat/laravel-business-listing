@@ -62,23 +62,23 @@ MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 </pre>
 
 ## Useful commands
-- To run the migration
+- To run the migration<br/>
 php artisan migrate
 
-- To create authentication
+- To create authentication<br/>
 php artisan make:auth
 
-- To create controller
+- To create controller</br>
 php artisan make:controller NamesController
 
-- To add crud functionality in controller
+- To add crud functionality in controller<br/>
 php artisan make:controller NamesController --resource
 
-- To create model
+- To create model<br/>
 php artisan make:model Name
 
-- To create model with migration
+- To create model with migration<br/>
 php artisan make:model Name -m
 
-- To see all route lists
+- To see all route lists<br/>
 php artisan route:list
